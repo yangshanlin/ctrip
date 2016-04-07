@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="air_code">
+        <item>3u</item>
+        <item>8c</item>
+        <item>8l</item>
+        <item>ca</item>
+        <item>cz</item>
+        <item>eu</item>
+        <item>fm</item>
+        <item>cn</item>
+        <item>ho</item>
+        <item>hu</item>
+        <item>jd</item>
+        <item>kn</item>
+        <item>mf</item>
+        <item>mu</item>
+        <item>pn</item>
+        <item>sc</item>
+        <item>zh</item>
+        <item>bk</item>
+        <item>jr</item>
+        <item>ky</item>
+        <item>ns</item>
+        <item>g5</item>
+        <item>gs</item>
+        <item>oq</item>
+        <item>vd</item>
+        <item>tv</item>
+        <item>9c</item>
+    </string-array>
+    <string-array name="city_first_letter">
+        <item>热门城市</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="cp_gender_tabs">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="ctrip_hotel_comment_type">
+        <item>商务出差</item>
+        <item>带小孩出游</item>
+        <item>和家人出游</item>
+        <item>和朋友出游</item>
+        <item>独自出游</item>
+        <item>代人预订</item>
+        <item>夫妇/情侣出游</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="ctrip_star_for_display_array">
+        <item>经济型</item>
+        <item>经济型</item>
+        <item>舒适型</item>
+        <item>高档型</item>
+        <item>豪华型</item>
+    </string-array>
+    <integer-array name="destination_strategy_inland_city_name">
+        <item>1</item>
+        <item>2</item>
+        <item>39</item>
+        <item>21</item>
+        <item>104</item>
+        <item>14</item>
+        <item>26</item>
+        <item>7</item>
+        <item>32</item>
+    </integer-array>
+    <string-array name="distance_array">
+        <item>500米内</item>
+        <item>1公里内</item>
+        <item>2公里内</item>
+        <item>4公里内</item>
+        <item>8公里内</item>
+        <item>10公里内</item>
+    </string-array>
+    <string-array name="distance_value_array">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>2.0</item>
+        <item>4.0</item>
+        <item>8.0</item>
+        <item>10.0</item>
+    </string-array>
+    <string-array name="favorite_share_menu_item">
+        <item>收藏</item>
+        <item>喜欢</item>
+        <item>分享</item>
+    </string-array>
+    <string-array name="flight_class_type">
+        <item>经济舱</item>
+        <item>公务舱/头等舱</item>
+    </string-array>
+    <string-array name="flight_class_type_code">
+        <item>0</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="flight_f1_subclass_items">
+        <item>经济舱</item>
+        <item>公务/头等舱</item>
+        <item>经济舱</item>
+        <item>超级经济舱</item>
+        <item>公务舱</item>
+        <item>头等舱</item>
+    </string-array>
+    <string-array name="flight_f1_subclass_items_for_global">
+        <item>经济舱</item>
+        <item>超级经济舱</item>
+        <item>公务舱</item>
+        <item>头等舱</item>
+    </string-array>
+    <string-array name="flight_f1_subclass_items_for_inland">
+        <item>经济舱</item>
+        <item>公务/头等舱</item>
+    </string-array>
+    <string-array name="flight_filter_crafttype">
+        <item>不限</item>
+        <item>大机型</item>
+        <item>中机型</item>
+        <item>小机型</item>
+    </string-array>
+    <string-array name="flight_filter_time">
+        <item>不限</item>
+        <item>00:00-06:00</item>
+        <item>06:00-12:00</item>
+        <item>12:00-18:00</item>
+        <item>18:00-24:00</item>
+    </string-array>
+    <string-array name="flight_inquire_item_list">
+        <item>机票查询</item>
+        <item>航班看板</item>
+        <item>机场攻略</item>
+        <item>值机</item>
+    </string-array>
+    <string-array name="flight_status">
+        <item>正常</item>
+        <item>起飞</item>
+        <item>到达</item>
+        <item>延误</item>
+        <item>取消</item>
+        <item>备降</item>
+        <item>返航</item>
+    </string-array>
+    <string-array name="global_flight_class_type">
+        <item>经济舱</item>
+        <item>超级经济舱</item>
+        <item>公务舱</item>
+        <item>头等舱</item>
+    </string-array>
+    <string-array name="global_flight_class_type_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="global_flight_type">
+        <item>不限</item>
+        <item>仅查看直飞</item>
+        <item>1程中转</item>
+    </string-array>
+    <string-array name="global_flight_type_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="group_hotel_price_array">
+        <item>不限</item>
+        <item>100以下</item>
+        <item>100-250元</item>
+        <item>250-400元</item>
+        <item>400-600元</item>
+        <item>600元以上</item>
+    </string-array>
+    <string-array name="group_hotel_star_array">
+        <item>不限</item>
+        <item>五星/豪华</item>
+        <item>四星/高档</item>
+        <item>三星/舒适</item>
+        <item>二星/经济</item>
+    </string-array>
+    <string-array name="group_item_type">
+        <item>全部团购</item>
+        <item>酒店客房</item>
+        <item>餐饮娱乐</item>
+        <item>旅游出行</item>
+        <item>门票</item>
+    </string-array>
+    <string-array name="group_sort_type">
+        <item>默认排序</item>
+        <item>最新开团</item>
+        <item>销量</item>
+        <item>折扣</item>
+        <item>价格</item>
+        <item>价格</item>
+        <item>点评分</item>
+    </string-array>
+    <string-array name="groupon_hotel_order_filter">
+        <item>全部</item>
+        <item>待支付</item>
+        <item>支付中</item>
+        <item>支付失败</item>
+        <item>支付成功</item>
+        <item>已取消</item>
+    </string-array>
+    <string-array name="hotel_comment_tabs_noimage">
+        <item>全部</item>
+        <item>值得推荐</item>
+        <item>有待改善</item>
+    </string-array>
+    <string-array name="hotel_other_array">
+        <item>不限</item>
+        <item>预付房型</item>
+        <item>到店付款</item>
+        <item>支持礼品卡</item>
+        <item>WIFI无线上网</item>
+        <item>停车场</item>
+    </string-array>
+    <string-array name="hotel_price_array">
+        <item>不限</item>
+        <item>经济型连锁酒店</item>
+        <item>￥150以下</item>
+        <item>￥150-￥300</item>
+        <item>￥301-￥450</item>
+        <item>￥451-￥600</item>
+        <item>￥601-￥1000</item>
+        <item>￥1000以上</item>
+    </string-array>
+    <string-array name="hotel_star_array">
+        <item>不限</item>
+        <item>五星级/豪华</item>
+        <item>四星级/高档</item>
+        <item>三星级/舒适</item>
+        <item>二星级及以下/经济</item>
+    </string-array>
+    <string-array name="hotel_star_for_display_array">
+        <item>一星级</item>
+        <item>二星级</item>
+        <item>三星级</item>
+        <item>四星级</item>
+        <item>五星级</item>
+    </string-array>
+    <string-array name="inland_call_list">
+        <item>@string/mobile_self_help</item>
+        <item>@string/ctrip_call_inland</item>
+        <item>@string/close</item>
+    </string-array>
+    <string-array name="input_item">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="inquire_train_type_long">
+        <item>不限车次</item>
+        <item>高铁/动车(G/D/C)</item>
+        <item>普通(Z/K/T/数字等开头)</item>
+    </string-array>
+    <string-array name="login_normallogin_mobilelogin">
+        <item>普通登录</item>
+        <item>手机动态密码登录</item>
+    </string-array>
+    <string-array name="low_price_discount">
+        <item>7折及以下</item>
+        <item>6折及以下</item>
+        <item>5折及以下</item>
+        <item>4折及以下</item>
+        <item>3折及以下</item>
+    </string-array>
+    <string-array name="my_flight_order">
+        <item>全部</item>
+        <item>未处理</item>
+        <item>处理中</item>
+        <item>已成交</item>
+        <item>已取消</item>
+        <item>全部退票</item>
+        <item>部分退票</item>
+    </string-array>
+    <string-array name="my_hotel_order">
+        <item>全部</item>
+        <item>已确认</item>
+        <item>确认中</item>
+        <item>已成交</item>
+        <item>已取消</item>
+    </string-array>
+    <string-array name="my_inflight_order">
+        <item>全部</item>
+        <item>未处理</item>
+        <item>处理中</item>
+        <item>已成交</item>
+        <item>已取消</item>
+        <item>全部退票</item>
+        <item>部分退票</item>
+    </string-array>
+    <string-array name="my_rentcar_order">
+        <item>全部</item>
+        <item>已提交</item>
+        <item>确认中</item>
+        <item>已付款</item>
+        <item>已成交</item>
+        <item>全部退订</item>
+        <item>部分退订</item>
+        <item>已取消</item>
+    </string-array>
+    <string-array name="my_train_order">
+        <item>全部</item>
+        <item>处理中</item>
+        <item>已完成</item>
+    </string-array>
+    <string-array name="my_train_type_fliter_six">
+        <item>全部</item>
+        <item>高铁/动车(G/D/C)</item>
+        <item>普通(Z/K/T/数字等开头)</item>
+    </string-array>
+    <string-array name="my_train_type_six">
+        <item>不限</item>
+        <item>高铁/动车</item>
+        <item>普通车</item>
+    </string-array>
+    <string-array name="my_travel_order">
+        <item>全部</item>
+        <item>已提交</item>
+        <item>确认中</item>
+        <item>已付款</item>
+        <item>已出票</item>
+        <item>已成交</item>
+        <item>全部退订</item>
+        <item>部分退订</item>
+        <item>已取消</item>
+        <item>暂存订单</item>
+    </string-array>
+    <string-array name="nation_first_letter">
+        <item>热门国家</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="oversea_call_list">
+        <item>@string/mobile_self_help</item>
+        <item>@string/ctrip_call</item>
+        <item>@string/ctrip_intelcall</item>
+        <item>@string/close</item>
+    </string-array>
+    <string-array name="ques_answ_filter">
+        <item>全部</item>
+        <item>交通</item>
+        <item>住宿</item>
+        <item>景点</item>
+        <item>餐饮</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="rental_duration">
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>4小时</item>
+        <item>1天</item>
+        <item>2天</item>
+    </string-array>
+    <string-array name="restaurant_price_array">
+        <item>不限</item>
+        <item>20元以下</item>
+        <item>20元-50元</item>
+        <item>50元-100元</item>
+        <item>100元以上</item>
+    </string-array>
+    <string-array name="share_item_list">
+        <item>分享到新浪微博</item>
+        <item>分享给微信好友</item>
+        <item>短信发送</item>
+    </string-array>
+    <string-array name="three_day_array">
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+    </string-array>
+    <string-array name="ticket_level_filter">
+        <item>不限</item>
+        <item>5A景区</item>
+        <item>4A景区</item>
+        <item>3A景区</item>
+    </string-array>
+    <string-array name="ticket_order_filter">
+        <item>全部</item>
+        <item>已提交</item>
+        <item>确认中</item>
+        <item>已付款</item>
+        <item>已出票</item>
+        <item>已成交</item>
+        <item>已取消</item>
+        <item>全部退票</item>
+        <item>部分退票</item>
+    </string-array>
+    <string-array name="ticket_price_filter">
+        <item>不限</item>
+        <item>￥0-￥100</item>
+        <item>￥100-￥200</item>
+        <item>￥200以上</item>
+    </string-array>
+    <string-array name="time_range_list">
+        <item>08:00~11:00</item>
+        <item>08:30~11:30</item>
+        <item>09:00~12:00</item>
+        <item>09:30~12:30</item>
+        <item>10:00~13:00</item>
+        <item>10:30~13:30</item>
+        <item>11:00~14:00</item>
+        <item>11:30~14:30</item>
+        <item>12:00~15:00</item>
+        <item>12:30~15:30</item>
+        <item>13:00~16:00</item>
+        <item>13:30~16:30</item>
+        <item>14:00~17:00</item>
+        <item>14:30~17:30</item>
+        <item>15:00~18:00</item>
+        <item>15:30~18:30</item>
+        <item>16:00~19:00</item>
+        <item>16:30~19:30</item>
+        <item>17:00~20:00</item>
+        <item>17:30~20:30</item>
+        <item>18:00~21:00</item>
+        <item>18:30~21:30</item>
+        <item>19:00~22:00</item>
+        <item>19:30~22:30</item>
+        <item>20:00~23:00</item>
+        <item>20:30~23:30</item>
+        <item>21:00~23:59</item>
+        <item>22:00~次日01:00</item>
+        <item>23:00~次日02:00</item>
+        <item>23:59~次日03:00</item>
+    </string-array>
+    <string-array name="train_seat_type_all">
+        <item>不限</item>
+        <item>一等座</item>
+        <item>二等座</item>
+        <item>商务座</item>
+        <item>硬座</item>
+        <item>软座</item>
+        <item>硬卧</item>
+        <item>软卧</item>
+        <item>无座</item>
+    </string-array>
+    <string-array name="train_seat_type_fast">
+        <item>不限</item>
+        <item>一等座</item>
+        <item>二等座</item>
+        <item>软卧</item>
+        <item>商务座</item>
+    </string-array>
+    <string-array name="train_seat_type_normal">
+        <item>不限</item>
+        <item>硬座</item>
+        <item>软座</item>
+        <item>硬卧</item>
+        <item>软卧</item>
+        <item>无座</item>
+    </string-array>
+    <string-array name="travel_schedule_share_item_list">
+        <item>分享给微信好友</item>
+        <item>发送短信</item>
+        <item>发送邮件</item>
+    </string-array>
+    <string-array name="vacation_days">
+        <item>全部天数</item>
+        <item>2日</item>
+        <item>3日</item>
+        <item>4日</item>
+        <item>5日</item>
+        <item>6日</item>
+        <item>7-8日</item>
+        <item>9-10日</item>
+        <item>10日以上</item>
+    </string-array>
+    <string-array name="vacation_product_grade">
+        <item>全部等级</item>
+        <item>经济</item>
+        <item>舒服</item>
+        <item>豪华</item>
+        <item>超豪华</item>
+        <item>顶级</item>
+    </string-array>
+    <string-array name="vacation_product_type">
+        <item>全部类型</item>
+        <item>团队游</item>
+        <item>周边/当地游</item>
+        <item>门票</item>
+        <item>邮轮</item>
+    </string-array>
+    <string-array name="voice_around">
+        <item>上海周边游</item>
+        <item>周末可以去周边哪里玩</item>
+        <item>附近有没有短途游</item>
+        <item>苏州一日游</item>
+        <item>杭州一日游</item>
+        <item>西安一日游</item>
+    </string-array>
+    <string-array name="voice_destination">
+        <item>上海美食</item>
+        <item>什么时候去马尔代夫合适</item>
+        <item>上海旅游攻略</item>
+        <item>东方明珠</item>
+        <item>上海景点</item>
+        <item>上海购物</item>
+        <item>上海滑雪</item>
+        <item>上海的韩国料理</item>
+        <item>上海特色</item>
+        <item>上海攻略</item>
+        <item>上海交通攻略</item>
+    </string-array>
+    <string-array name="voice_flight">
+        <item>上海到北京的航班</item>
+        <item>明天到三亚的航班</item>
+        <item>下周三晚上雅加达飞广州</item>
+        <item>上海到东京的来回机票</item>
+        <item>杭州到香港的公务舱</item>
+        <item>10月1号上海到香港的飞机</item>
+        <item>明天飞纽约</item>
+        <item>查询成都到北京的往返机票</item>
+        <item>今天到深圳的飞机</item>
+        <item>广州到桂林的经济舱</item>
+        <item>北京到哈尔滨的飞机票</item>
+    </string-array>
+    <string-array name="voice_free">
+        <item>上海去北京的自由行</item>
+        <item>去云南自由行</item>
+        <item>自由行去昆明</item>
+        <item>到三亚自由行</item>
+        <item>北京到西安的自由行</item>
+        <item>成都的自由行套餐</item>
+        <item>去北京的自助游</item>
+    </string-array>
+    <string-array name="voice_group">
+        <item>上海去三亚的跟团游</item>
+        <item>德国跟团游</item>
+        <item>上海两日游</item>
+        <item>去北京的跟团游</item>
+        <item>去新加坡旅游</item>
+        <item>丽江旅游</item>
+        <item>去迪拜度假</item>
+        <item>五天的团队游去香港</item>
+        <item>上海去北京团队五日游</item>
+    </string-array>
+    <string-array name="voice_hotel">
+        <item>我附近的汉庭酒店</item>
+        <item>10月1日杭州西湖附近的五星级宾馆</item>
+        <item>离虹桥机场最近的酒店</item>
+        <item>上海的酒店</item>
+        <item>我附近的酒店</item>
+        <item>明晚入住天安门附近的酒店</item>
+        <item>住五星级酒店</item>
+        <item>三亚五星级酒店</item>
+        <item>上海靠近外滩的酒店</item>
+        <item>订上海火车站周边500元以内的旅馆</item>
+        <item>首都机场周边的宾馆</item>
+        <item>明晚入住上海四季酒店</item>
+        <item>昆明的酒店</item>
+        <item>哈尔滨火车站附近的旅馆</item>
+        <item>离我最近的酒店</item>
+        <item>特惠酒店</item>
+    </string-array>
+    <string-array name="voice_myctrip">
+        <item>未出行订单</item>
+        <item>待支付订单</item>
+        <item>我的酒店订单</item>
+        <item>待点评订单</item>
+        <item>查查我的未出行订单</item>
+        <item>我的机票订单</item>
+    </string-array>
+    <string-array name="voice_tickets">
+        <item>三亚的门票</item>
+        <item>上海东方明珠观光券</item>
+        <item>西安钟楼景区票价</item>
+        <item>北京故宫的门票</item>
+        <item>黄山景区门票</item>
+        <item>广州的门票</item>
+        <item>香港迪士尼乐园套票</item>
+    </string-array>
+    <string-array name="voice_train">
+        <item>上海到北京的火车</item>
+        <item>10月1号成都到北京的高铁</item>
+        <item>下周三晚上到洛阳的软卧</item>
+        <item>明天到福州的车票</item>
+        <item>上海站到南京南</item>
+        <item>从上海虹桥出发到北京南的列车</item>
+        <item>去往合肥的列车</item>
+        <item>北京到西安的一等座</item>
+        <item>南通到广州的火车票</item>
+        <item>南京到杭州的动车</item>
+    </string-array>
+    <string-array name="weekendtrip_list_sort">
+        <item>携程推荐</item>
+        <item>最新上架</item>
+        <item>销量</item>
+        <item>点评</item>
+        <item>价格</item>
+        <item>价格</item>
+    </string-array>
+    <string-array name="weekendtrip_tabs">
+        <item>景点+酒店</item>
+        <item>短途团队游</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+</resources>

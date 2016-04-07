@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list apk:oneshot="false"
+  xmlns:apk="http://schemas.android.com/apk/res/android">
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_1" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_2" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_3" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_4" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_5" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_6" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_7" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_8" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_9" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_10" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_11" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_12" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_13" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_14" />
+    <item apk:duration="100" apk:drawable="@drawable/common_loading_15" />
+</animation-list>

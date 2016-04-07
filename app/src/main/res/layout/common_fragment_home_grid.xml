@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="4.0dip"
+    android:paddingRight="4.0dip"
+    android:paddingTop="4.0dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="808.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="196.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yangsl.ctrip.widget.HomeButtonView
+                android:id="@id/home_index_hotel"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="232.0"
+                android:background="@drawable/common_homepage_btn_shape_hotel" >
+
+                <TextView
+                    android:id="@id/home_index_hotel_bg"
+                    style="@style/text_home_style1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/common_btn_homepage_hotel"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/home_title_hotel" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="136.0" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="34.0"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="133.0" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="30.0" >
+
+                            <FrameLayout
+                                android:id="@id/shake_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="bottom|center|right"
+                                    android:background="@drawable/common_icon_home_hotelphone2" />
+
+                                <View
+                                    android:id="@id/shake_img"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="bottom|center|right"
+                                    android:background="@drawable/common_icon_home_hotelphone" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="33.0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="62.0" />
+                </LinearLayout>
+            </com.yangsl.ctrip.widget.HomeButtonView>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_globaltop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_hotel" >
+
+                    <TextView
+                        android:id="@+id/home_index_globaltop_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_globaltop" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_salehotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_hotel" >
+
+                    <TextView
+                        android:id="@id/home_index_salehotel_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_salehotel" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_groupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/common_homepage_btn_shape_specialsale" >
+
+                    <TextView
+                        android:id="@id/home_index_groupon_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_groupon" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_apartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_hotel" >
+
+                    <TextView
+                        android:id="@id/home_index_apartment_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_apartment" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_weight="196.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yangsl.ctrip.widget.HomeButtonView
+                android:id="@id/home_index_flight"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="232.0"
+                android:background="@color/home_color_plane"
+                app:doAnim="true" >
+
+                <TextView
+                    android:id="@id/home_index_flight_bg"
+                    style="@style/text_home_style1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/common_btn_homepage_flight"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/home_title_flight" />
+            </com.yangsl.ctrip.widget.HomeButtonView>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_train"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_plane" >
+
+                    <TextView
+                        android:id="@id/home_index_train_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_train" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_global_flight"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_plane" >
+
+                    <TextView
+                        android:id="@id/home_index_global_flight_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_globalflight_b" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_bus"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_plane" >
+
+                    <TextView
+                        android:id="@id/home_index_bus_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_bus" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_car"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_plane" >
+
+                    <TextView
+                        android:id="@id/home_index_car_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_car" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_weight="196.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yangsl.ctrip.widget.HomeButtonView
+                android:id="@id/home_index_travel"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="232.0"
+                android:background="@color/home_color_travel" >
+
+                <TextView
+                    android:id="@id/home_index_travel_bg"
+                    style="@style/text_home_style1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/common_btn_homepage_travel"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/home_title_grouptours" />
+            </com.yangsl.ctrip.widget.HomeButtonView>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_travel" >
+
+                    <TextView
+                        android:id="@id/home_index_local_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_freewalker" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_weekend"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_travel" >
+
+                    <TextView
+                        android:id="@id/home_index_weekend_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_weekendtravel" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_cruise"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_travel" >
+
+                    <TextView
+                        android:id="@id/home_index_cruise_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_cruise" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_visa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_travel" >
+
+                    <TextView
+                        android:id="@id/home_index_visa_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_visa" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_weight="196.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="232.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_tickets"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_0dp"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_local" >
+
+                    <TextView
+                        android:id="@id/home_index_tickets_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_tickets" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_wealth"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/common_homepage_btn_shape_wealth" >
+
+                    <TextView
+                        android:id="@id/home_index_wealth_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_wealth" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_foods"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_local" >
+
+                    <TextView
+                        android:id="@id/home_index_foods_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_foods" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_travelwifi"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_local" >
+
+                    <TextView
+                        android:id="@id/home_index_travelwifi_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_travelwifi" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_weight="230.0"
+                android:orientation="vertical" >
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_globalshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/home_color_local" >
+
+                    <TextView
+                        android:id="@id/home_index_globalshop_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_globalshop" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+
+                <com.yangsl.ctrip.widget.HomeButtonView
+                    android:id="@id/home_index_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/common_homepage_btn_shape_more" >
+
+                    <TextView
+                        android:id="@id/home_index_more_bg"
+                        style="@style/text_home_style1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/home_title_more" />
+                </com.yangsl.ctrip.widget.HomeButtonView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@id/home_index_sale_layout_a"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_weight="135.0"
+        android:gravity="center_horizontal"
+        android:layout="@layout/common_fragment_home_sale_layout_a" />
+
+</LinearLayout>

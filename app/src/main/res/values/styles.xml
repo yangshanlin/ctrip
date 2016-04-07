@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
+
+    <style name="text_home_style1">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_home_style2">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/home_myctrip</item>
+    </style>
+
+    <style name="text_home_style3">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+    <style name="text_home_style4">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#aaffffff</item>
+    </style>
+
+    <style name="MspAppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="doAnim" format="boolean" />
+
+    <declare-styleable name="home_button">
+        <attr name="doAnim" />
+    </declare-styleable>
+
+    <attr name="showMessageView" format="boolean" />
+
+    <declare-styleable name="HomeButtonView">
+        <attr name="showMessageView"></attr>
+    </declare-styleable>
+
+</resources>

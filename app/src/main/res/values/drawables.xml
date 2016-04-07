@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="flight_change_list_item_text_click">#ffffffff</item>
+    <item type="drawable" name="flight_change_list_item_text_normal1">#ffff9913</item>
+    <item type="drawable" name="flight_change_list_item_text_normal2">#ffcc3333</item>
+    <item type="drawable" name="flight_change_text_normal">#ff666666</item>
+    <item type="drawable" name="flight_city_item_text_normal">#ff4e5f71</item>
+    <item type="drawable" name="flight_city_item_text_selected">#ff099fde</item>
+    <item type="drawable" name="help_activity_background">#bb000000</item>
+    <item type="drawable" name="hotel_city_item_text_normal">#ff666666</item>
+    <item type="drawable" name="hotel_city_item_text_selected">#ff099fde</item>
+    <item type="drawable" name="mini_list_devider">#ffbababa</item>
+    <item type="drawable" name="mini_page_bg_color">#ffededed</item>
+    <item type="drawable" name="mini_web_back_text_default">#ff333333</item>
+    <item type="drawable" name="mini_web_back_text_press">#ffcccccc</item>
+    <item type="drawable" name="mini_win_background_draw">#00000000</item>
+    <item type="drawable" name="window_bg">#ffdddddd</item>
+</resources>
